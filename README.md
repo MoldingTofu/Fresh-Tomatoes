@@ -5,7 +5,7 @@ Submitted by: **Jeremy Chang**
 
 Time spent: **0** hours spent in total
 
-##User Stories
+## User Stories
 *Required*
 * [ ] User sees an app icon on the home screen and a styled launch screen.
 * [ ] User can view and scroll through a list of movies now playing in theaters.

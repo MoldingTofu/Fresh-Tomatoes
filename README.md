@@ -1,5 +1,5 @@
 # Fresh Tomatoes
-**Fresh Tomatoes** is a movie browsing app, similar to Rotten Tomatoes, that lets a user view and scroll through a list of movies. application for iOS.
+**Fresh Tomatoes** is a movie browsing app, similar to Rotten Tomatoes, that lets a user view and scroll through a list of movies application for iOS.
 
 Submitted by: **Jeremy Chang**
 

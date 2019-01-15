@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0864A3DE7FFA79D8A615F002 /* Pods_Fresh_Tomatoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6796E126D7A2DA52814F8D4C /* Pods_Fresh_Tomatoes.framework */; };
+		0AF4A24C8A5FDB8C3900D654 /* Pods_Fresh_TomatoesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E205E98C30E2A5A875CF57 /* Pods_Fresh_TomatoesTests.framework */; };
 		3F70B6E621ED53B800B97434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6E521ED53B800B97434 /* AppDelegate.swift */; };
 		3F70B6E821ED53B800B97434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6E721ED53B800B97434 /* ViewController.swift */; };
 		3F70B6EB21ED53B800B97434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F70B6E921ED53B800B97434 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		3F70B6F021ED53B900B97434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F70B6EE21ED53B900B97434 /* LaunchScreen.storyboard */; };
 		3F70B6FB21ED53B900B97434 /* Fresh_TomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6FA21ED53B900B97434 /* Fresh_TomatoesTests.swift */; };
 		3F70B70621ED53B900B97434 /* Fresh_TomatoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B70521ED53B900B97434 /* Fresh_TomatoesUITests.swift */; };
+		3F70B71421ED7B0F00B97434 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B71321ED7B0F00B97434 /* MovieCell.swift */; };
+		AACCE6C477A9C53A4CF4EDC5 /* Pods_Fresh_TomatoesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137E7BB5C8E86F7CED4FB9F3 /* Pods_Fresh_TomatoesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B53EFA21A772A6B1D95831 /* Pods-Fresh TomatoesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesUITests/Pods-Fresh TomatoesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		137E7BB5C8E86F7CED4FB9F3 /* Pods_Fresh_TomatoesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fresh_TomatoesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EFE50B8876C6132DE57266 /* Pods-Fresh TomatoesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesTests/Pods-Fresh TomatoesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E71342E112C8F7B154362D6 /* Pods-Fresh Tomatoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh Tomatoes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes.debug.xcconfig"; sourceTree = "<group>"; };
+		379C76BE38CAF7C8374CDF0B /* Pods-Fresh TomatoesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesTests/Pods-Fresh TomatoesTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F70B6E221ED53B800B97434 /* Fresh Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresh Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F70B6E521ED53B800B97434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F70B6E721ED53B800B97434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		3F70B70121ED53B900B97434 /* Fresh TomatoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fresh TomatoesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F70B70521ED53B900B97434 /* Fresh_TomatoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fresh_TomatoesUITests.swift; sourceTree = "<group>"; };
 		3F70B70721ED53B900B97434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F70B71321ED7B0F00B97434 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		613B4988D4ECB0ABA1081F1E /* Pods-Fresh TomatoesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesUITests/Pods-Fresh TomatoesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6796E126D7A2DA52814F8D4C /* Pods_Fresh_Tomatoes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fresh_Tomatoes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFEA73E84C0A431CB84B204 /* Pods-Fresh Tomatoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh Tomatoes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes.release.xcconfig"; sourceTree = "<group>"; };
+		77E205E98C30E2A5A875CF57 /* Pods_Fresh_TomatoesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fresh_TomatoesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0864A3DE7FFA79D8A615F002 /* Pods_Fresh_Tomatoes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF4A24C8A5FDB8C3900D654 /* Pods_Fresh_TomatoesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACCE6C477A9C53A4CF4EDC5 /* Pods_Fresh_TomatoesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2BD981AE580C6335502DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6796E126D7A2DA52814F8D4C /* Pods_Fresh_Tomatoes.framework */,
+				77E205E98C30E2A5A875CF57 /* Pods_Fresh_TomatoesTests.framework */,
+				137E7BB5C8E86F7CED4FB9F3 /* Pods_Fresh_TomatoesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F70B6D921ED53B800B97434 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				3F70B6F921ED53B900B97434 /* Fresh TomatoesTests */,
 				3F70B70421ED53B900B97434 /* Fresh TomatoesUITests */,
 				3F70B6E321ED53B800B97434 /* Products */,
+				478D07370CEA1FBC19F9364F /* Pods */,
+				3E2BD981AE580C6335502DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +129,7 @@
 				3F70B6E521ED53B800B97434 /* AppDelegate.swift */,
 				3F70B6E721ED53B800B97434 /* ViewController.swift */,
 				3F70B6E921ED53B800B97434 /* Main.storyboard */,
+				3F70B71321ED7B0F00B97434 /* MovieCell.swift */,
 				3F70B6EC21ED53B900B97434 /* Assets.xcassets */,
 				3F70B6EE21ED53B900B97434 /* LaunchScreen.storyboard */,
 				3F70B6F121ED53B900B97434 /* Info.plist */,
@@ -125,6 +155,19 @@
 			path = "Fresh TomatoesUITests";
 			sourceTree = "<group>";
 		};
+		478D07370CEA1FBC19F9364F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E71342E112C8F7B154362D6 /* Pods-Fresh Tomatoes.debug.xcconfig */,
+				6CFEA73E84C0A431CB84B204 /* Pods-Fresh Tomatoes.release.xcconfig */,
+				13EFE50B8876C6132DE57266 /* Pods-Fresh TomatoesTests.debug.xcconfig */,
+				379C76BE38CAF7C8374CDF0B /* Pods-Fresh TomatoesTests.release.xcconfig */,
+				08B53EFA21A772A6B1D95831 /* Pods-Fresh TomatoesUITests.debug.xcconfig */,
+				613B4988D4ECB0ABA1081F1E /* Pods-Fresh TomatoesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F70B70A21ED53B900B97434 /* Build configuration list for PBXNativeTarget "Fresh Tomatoes" */;
 			buildPhases = (
+				C19EB47BBF2C6E1164726EDC /* [CP] Check Pods Manifest.lock */,
 				3F70B6DE21ED53B800B97434 /* Sources */,
 				3F70B6DF21ED53B800B97434 /* Frameworks */,
 				3F70B6E021ED53B800B97434 /* Resources */,
+				3BDAE5E91FA96D1C1FEE6502 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F70B70D21ED53B900B97434 /* Build configuration list for PBXNativeTarget "Fresh TomatoesTests" */;
 			buildPhases = (
+				3B6658E54E2EE90BACB09841 /* [CP] Check Pods Manifest.lock */,
 				3F70B6F221ED53B900B97434 /* Sources */,
 				3F70B6F321ED53B900B97434 /* Frameworks */,
 				3F70B6F421ED53B900B97434 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F70B71021ED53B900B97434 /* Build configuration list for PBXNativeTarget "Fresh TomatoesUITests" */;
 			buildPhases = (
+				BE3E5EAB093E21A8ACC54F2F /* [CP] Check Pods Manifest.lock */,
 				3F70B6FD21ED53B900B97434 /* Sources */,
 				3F70B6FE21ED53B900B97434 /* Frameworks */,
 				3F70B6FF21ED53B900B97434 /* Resources */,
@@ -251,6 +298,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B6658E54E2EE90BACB09841 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fresh TomatoesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDAE5E91FA96D1C1FEE6502 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE3E5EAB093E21A8ACC54F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fresh TomatoesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19EB47BBF2C6E1164726EDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fresh Tomatoes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F70B6DE21ED53B800B97434 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +398,7 @@
 			files = (
 				3F70B6E821ED53B800B97434 /* ViewController.swift in Sources */,
 				3F70B6E621ED53B800B97434 /* AppDelegate.swift in Sources */,
+				3F70B71421ED7B0F00B97434 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +571,7 @@
 		};
 		3F70B70B21ED53B900B97434 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E71342E112C8F7B154362D6 /* Pods-Fresh Tomatoes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +589,7 @@
 		};
 		3F70B70C21ED53B900B97434 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFEA73E84C0A431CB84B204 /* Pods-Fresh Tomatoes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +607,7 @@
 		};
 		3F70B70E21ED53B900B97434 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFE50B8876C6132DE57266 /* Pods-Fresh TomatoesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +628,7 @@
 		};
 		3F70B70F21ED53B900B97434 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379C76BE38CAF7C8374CDF0B /* Pods-Fresh TomatoesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +649,7 @@
 		};
 		3F70B71121ED53B900B97434 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B53EFA21A772A6B1D95831 /* Pods-Fresh TomatoesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +669,7 @@
 		};
 		3F70B71221ED53B900B97434 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613B4988D4ECB0ABA1081F1E /* Pods-Fresh TomatoesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

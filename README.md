@@ -1,7 +1,7 @@
 # Fresh Tomatoes
-Fresh Tomatoes is a movie browsing app, similar to Rotten Tomatoes, that lets a user view and scroll through a list of movies application for iOS. It uses the api [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Fresh Tomatoes is a movie browsing app, similar to Rotten Tomatoes, that lets a user view and scroll through a list of movies application for iOS. It uses the api: [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+#📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
 ---
 
@@ -20,7 +20,6 @@ Fresh Tomatoes is a movie browsing app, similar to Rotten Tomatoes, that lets a 
 
 ### App Walkthough GIF
 
-<img src="Yhttps://media.giphy.com/media/3HG6rEAtIXkplrFYQp/giphy.gif" width=250><br>
-
+<img src='https://media.giphy.com/media/3HG6rEAtIXkplrFYQp/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ### Notes
 Keeping photos bit while keeping rows small was difficult.

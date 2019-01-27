@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0864A3DE7FFA79D8A615F002 /* Pods_Fresh_Tomatoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6796E126D7A2DA52814F8D4C /* Pods_Fresh_Tomatoes.framework */; };
 		0AF4A24C8A5FDB8C3900D654 /* Pods_Fresh_TomatoesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E205E98C30E2A5A875CF57 /* Pods_Fresh_TomatoesTests.framework */; };
+		3F35FAC421F9387B008BEDDD /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35FAC321F9387B008BEDDD /* MovieGridViewController.swift */; };
 		3F70B6E621ED53B800B97434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6E521ED53B800B97434 /* AppDelegate.swift */; };
 		3F70B6E821ED53B800B97434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6E721ED53B800B97434 /* ViewController.swift */; };
 		3F70B6EB21ED53B800B97434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F70B6E921ED53B800B97434 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 		3F70B6FB21ED53B900B97434 /* Fresh_TomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B6FA21ED53B900B97434 /* Fresh_TomatoesTests.swift */; };
 		3F70B70621ED53B900B97434 /* Fresh_TomatoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B70521ED53B900B97434 /* Fresh_TomatoesUITests.swift */; };
 		3F70B71421ED7B0F00B97434 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70B71321ED7B0F00B97434 /* MovieCell.swift */; };
+		3FB46B0421F95452001C9438 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB46B0321F95452001C9438 /* MovieGridCell.swift */; };
+		3FE7BBA521F92D5B00FEA55C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7BBA421F92D5B00FEA55C /* MovieDetailsViewController.swift */; };
 		AACCE6C477A9C53A4CF4EDC5 /* Pods_Fresh_TomatoesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137E7BB5C8E86F7CED4FB9F3 /* Pods_Fresh_TomatoesUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +46,7 @@
 		13EFE50B8876C6132DE57266 /* Pods-Fresh TomatoesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesTests/Pods-Fresh TomatoesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E71342E112C8F7B154362D6 /* Pods-Fresh Tomatoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh Tomatoes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes.debug.xcconfig"; sourceTree = "<group>"; };
 		379C76BE38CAF7C8374CDF0B /* Pods-Fresh TomatoesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesTests/Pods-Fresh TomatoesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F35FAC321F9387B008BEDDD /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		3F70B6E221ED53B800B97434 /* Fresh Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresh Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F70B6E521ED53B800B97434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F70B6E721ED53B800B97434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		3F70B70521ED53B900B97434 /* Fresh_TomatoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fresh_TomatoesUITests.swift; sourceTree = "<group>"; };
 		3F70B70721ED53B900B97434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F70B71321ED7B0F00B97434 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		3FB46B0321F95452001C9438 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		3FE7BBA421F92D5B00FEA55C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		613B4988D4ECB0ABA1081F1E /* Pods-Fresh TomatoesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh TomatoesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh TomatoesUITests/Pods-Fresh TomatoesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6796E126D7A2DA52814F8D4C /* Pods_Fresh_Tomatoes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fresh_Tomatoes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFEA73E84C0A431CB84B204 /* Pods-Fresh Tomatoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fresh Tomatoes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fresh Tomatoes/Pods-Fresh Tomatoes.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 				3F70B6EC21ED53B900B97434 /* Assets.xcassets */,
 				3F70B6EE21ED53B900B97434 /* LaunchScreen.storyboard */,
 				3F70B6F121ED53B900B97434 /* Info.plist */,
+				3FE7BBA421F92D5B00FEA55C /* MovieDetailsViewController.swift */,
+				3F35FAC321F9387B008BEDDD /* MovieGridViewController.swift */,
+				3FB46B0321F95452001C9438 /* MovieGridCell.swift */,
 			);
 			path = "Fresh Tomatoes";
 			sourceTree = "<group>";
@@ -396,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F35FAC421F9387B008BEDDD /* MovieGridViewController.swift in Sources */,
+				3FE7BBA521F92D5B00FEA55C /* MovieDetailsViewController.swift in Sources */,
 				3F70B6E821ED53B800B97434 /* ViewController.swift in Sources */,
 				3F70B6E621ED53B800B97434 /* AppDelegate.swift in Sources */,
+				3FB46B0421F95452001C9438 /* MovieGridCell.swift in Sources */,
 				3F70B71421ED7B0F00B97434 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

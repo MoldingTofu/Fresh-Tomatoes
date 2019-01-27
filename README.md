@@ -35,8 +35,8 @@ Fresh Tomatoes is a movie browsing app, similar to Rotten Tomatoes, that lets a 
 https://media.giphy.com/media/3HG6rEAtIXkplrFYQp/giphy.gif
 
 ### App Walkthough GIF Part 2
+<img src='https://media.giphy.com/media/1fkBEoOalF7YPzTcTo/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src="https://media.giphy.com/media/1fkBEoOalF7YPzTcTo/giphy.gif" width=250><br>
 https://media.giphy.com/media/1fkBEoOalF7YPzTcTo/giphy.gif
 
 ### Notes

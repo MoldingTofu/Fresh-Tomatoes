@@ -15,6 +15,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var posterView: UIImageView!
     @IBOutlet var backdropView: UIImageView!
+    @IBOutlet var scrollView: UIScrollView!
     var movie: [String:Any]!
     
     override func viewDidLoad() {
@@ -34,6 +35,7 @@ class MovieDetailsViewController: UIViewController {
         
         backdropView.af_setImage(withURL: backdropUrl!)
         posterView.af_setImage(withURL: posterUrl!)
+        
     }
     
 

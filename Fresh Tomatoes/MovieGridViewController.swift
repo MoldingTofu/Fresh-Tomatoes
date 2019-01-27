@@ -26,7 +26,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         
         let width = (view.frame.size.width - layout.minimumInteritemSpacing) / 2
         layout.itemSize = CGSize(width: width, height: width * 1.5)
-        
         let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
